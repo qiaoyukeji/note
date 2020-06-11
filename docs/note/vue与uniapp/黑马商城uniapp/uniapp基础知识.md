@@ -19,7 +19,8 @@
 
 项目：黑马商城项目
 
-##### uni-app介绍 [官方网页](https://uniapp.dcloud.io/resource)
+## uni-app介绍 
+[官方网页](https://uniapp.dcloud.io/resource)
 
 `uni-app` 是一个使用 [Vue.js](https://vuejs.org/) 开发所有前端应用的框架，开发者编写一套代码，可发布到iOS、Android、H5、以及各种小程序（微信/支付宝/百度/头条/QQ/钉钉）等多个平台。
 
@@ -31,7 +32,7 @@
 
 相对开发者来说，减少了学习成本，因为只学会uni-app之后，即可开发出iOS、Android、H5、以及各种小程序的应用，不需要再去学习开发其他应用的框架，相对公司而言，也大大减少了开发成本。
 
-##### 环境搭建
+## 环境搭建
 
 安装编辑器HbuilderX  [下载地址](https://www.dcloud.io/hbuilderx.html)
 
@@ -41,7 +42,7 @@ HBuilderX是通用的前端开发工具，但为`uni-app`做了特别强化。
 
 安装微信开发者工具 [下载地址](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)
 
-##### 利用HbuilderX初始化项目
+## 利用HbuilderX初始化项目
 
 + 点击HbuilderX菜单栏文件>项目>新建
 
@@ -50,7 +51,7 @@ HBuilderX是通用的前端开发工具，但为`uni-app`做了特别强化。
   ![](https://gitee.com//qiaoyukeji/markdown_tupian/raw/master/markdown/20200429165453.png)
 
 
-##### 运行项目
+## 运行项目
 
 在菜单栏中点击运行，运行到浏览器，选择浏览器即可运行
 
@@ -64,7 +65,7 @@ HBuilderX是通用的前端开发工具，但为`uni-app`做了特别强化。
 + 微信开发者工具在设置中安全设置，服务端口开启
 
 
-##### 介绍项目目录和文件作用
+## 介绍项目目录和文件作用
 
 `pages.json` 文件用来对 uni-app 进行全局配置，决定页面文件的路径、窗口样式、原生的导航栏、底部的原生tabbar 等
 
@@ -94,21 +95,21 @@ HBuilderX是通用的前端开发工具，但为`uni-app`做了特别强化。
 
 #### 全局配置和页面配置
 
-##### 通过globalStyle进行全局配置
+## 通过globalStyle进行全局配置
 
 用于设置应用的状态栏、导航条、标题、窗口背景色等。[详细文档](https://uniapp.dcloud.io/collocation/pages?id=globalstyle)
 
-| 属性                           | 类型       | 默认值     | 描述                                       |
-| ---------------------------- | -------- | ------- | ---------------------------------------- |
-| navigationBarBackgroundColor | HexColor | #F7F7F7 | 导航栏背景颜色（同状态栏背景色）                         |
-| navigationBarTextStyle       | String   | white   | 导航栏标题颜色及状态栏前景颜色，仅支持 black/white          |
-| navigationBarTitleText       | String   |         | 导航栏标题文字内容                                |
-| backgroundColor              | HexColor | #ffffff | 窗口的背景色                                   |
-| backgroundTextStyle          | String   | dark    | 下拉 loading 的样式，仅支持 dark / light          |
-| enablePullDownRefresh        | Boolean  | false   | 是否开启下拉刷新，详见[页面生命周期](https://uniapp.dcloud.io/use?id=%e9%a1%b5%e9%9d%a2%e7%94%9f%e5%91%bd%e5%91%a8%e6%9c%9f)。 |
+| 属性                         | 类型     | 默认值  | 描述                                                                                                                                                           |
+| ---------------------------- | -------- | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| navigationBarBackgroundColor | HexColor | #F7F7F7 | 导航栏背景颜色（同状态栏背景色）                                                                                                                               |
+| navigationBarTextStyle       | String   | white   | 导航栏标题颜色及状态栏前景颜色，仅支持 black/white                                                                                                             |
+| navigationBarTitleText       | String   |         | 导航栏标题文字内容                                                                                                                                             |
+| backgroundColor              | HexColor | #ffffff | 窗口的背景色                                                                                                                                                   |
+| backgroundTextStyle          | String   | dark    | 下拉 loading 的样式，仅支持 dark / light                                                                                                                       |
+| enablePullDownRefresh        | Boolean  | false   | 是否开启下拉刷新，详见[页面生命周期](https://uniapp.dcloud.io/use?id=%e9%a1%b5%e9%9d%a2%e7%94%9f%e5%91%bd%e5%91%a8%e6%9c%9f)。                                 |
 | onReachBottomDistance        | Number   | 50      | 页面上拉触底事件触发时距页面底部距离，单位只支持px，详见[页面生命周期](https://uniapp.dcloud.io/use?id=%e9%a1%b5%e9%9d%a2%e7%94%9f%e5%91%bd%e5%91%a8%e6%9c%9f) |
 
-##### 创建新的message页面
+## 创建新的message页面
 
 右键pages新建message目录，在message目录下右键新建.vue文件,并选择基本模板
 
@@ -126,12 +127,12 @@ HBuilderX是通用的前端开发工具，但为`uni-app`做了特别强化。
 </style>
 ```
 
-##### 通过pages来配置页面
+## 通过pages来配置页面
 
-| 属性    | 类型     | 默认值  | 描述                                       |
-| ----- | ------ | ---- | ---------------------------------------- |
-| path  | String |      | 配置页面路径                                   |
-| style | Object |      | 配置页面窗口表现，配置项参考 [pageStyle](https://uniapp.dcloud.io/collocation/pages?id=style) |
+| 属性  | 类型   | 默认值 | 描述                                                                                          |
+| ----- | ------ | ------ | --------------------------------------------------------------------------------------------- |
+| path  | String |        | 配置页面路径                                                                                  |
+| style | Object |        | 配置页面窗口表现，配置项参考 [pageStyle](https://uniapp.dcloud.io/collocation/pages?id=style) |
 
 pages数组数组中第一项表示应用启动页
 
@@ -169,7 +170,7 @@ pages数组数组中第一项表示应用启动页
 		}
 	]
 ```
-##### 配置tabbar
+## 配置tabbar
 
 如果应用是一个多 tab 应用，可以通过 tabBar 配置项指定 tab 栏的表现，以及 tab 切换时显示的对应页。
 
@@ -180,23 +181,23 @@ pages数组数组中第一项表示应用启动页
 
 **属性说明：**
 
-| 属性              | 类型       | 必填   | 默认值    | 描述                                 | 平台差异说明             |
-| --------------- | -------- | ---- | ------ | ---------------------------------- | ------------------ |
-| color           | HexColor | 是    |        | tab 上的文字默认颜色                       |                    |
-| selectedColor   | HexColor | 是    |        | tab 上的文字选中时的颜色                     |                    |
-| backgroundColor | HexColor | 是    |        | tab 的背景色                           |                    |
-| borderStyle     | String   | 否    | black  | tabbar 上边框的颜色，仅支持 black/white      | App 2.3.4+ 支持其他颜色值 |
-| list            | Array    | 是    |        | tab 的列表，详见 list 属性说明，最少2个、最多5个 tab |                    |
-| position        | String   | 否    | bottom | 可选值 bottom、top                     | top 值仅微信小程序支持      |
+| 属性            | 类型     | 必填 | 默认值 | 描述                                                 | 平台差异说明              |
+| --------------- | -------- | ---- | ------ | ---------------------------------------------------- | ------------------------- |
+| color           | HexColor | 是   |        | tab 上的文字默认颜色                                 |                           |
+| selectedColor   | HexColor | 是   |        | tab 上的文字选中时的颜色                             |                           |
+| backgroundColor | HexColor | 是   |        | tab 的背景色                                         |                           |
+| borderStyle     | String   | 否   | black  | tabbar 上边框的颜色，仅支持 black/white              | App 2.3.4+ 支持其他颜色值 |
+| list            | Array    | 是   |        | tab 的列表，详见 list 属性说明，最少2个、最多5个 tab |                           |
+| position        | String   | 否   | bottom | 可选值 bottom、top                                   | top 值仅微信小程序支持    |
 
 其中 list 接收一个数组，数组中的每个项都是一个对象，其属性值如下：
 
-| 属性               | 类型     | 必填   | 说明                                       |
-| ---------------- | ------ | ---- | ---------------------------------------- |
-| pagePath         | String | 是    | 页面路径，必须在 pages 中先定义                      |
-| text             | String | 是    | tab 上按钮文字，在 5+APP 和 H5 平台为非必填。例如中间可放一个没有文字的+号图标 |
-| iconPath         | String | 否    | 图片路径，icon 大小限制为40kb，建议尺寸为 81px * 81px，当 postion 为 top 时，此参数无效，不支持网络图片，不支持字体图标 |
-| selectedIconPath | String | 否    | 选中时的图片路径，icon 大小限制为40kb，建议尺寸为 81px * 81px ，当 postion 为 top 时，此参数无效 |
+| 属性             | 类型   | 必填 | 说明                                                                                                                    |
+| ---------------- | ------ | ---- | ----------------------------------------------------------------------------------------------------------------------- |
+| pagePath         | String | 是   | 页面路径，必须在 pages 中先定义                                                                                         |
+| text             | String | 是   | tab 上按钮文字，在 5+APP 和 H5 平台为非必填。例如中间可放一个没有文字的+号图标                                          |
+| iconPath         | String | 否   | 图片路径，icon 大小限制为40kb，建议尺寸为 81px * 81px，当 postion 为 top 时，此参数无效，不支持网络图片，不支持字体图标 |
+| selectedIconPath | String | 否   | 选中时的图片路径，icon 大小限制为40kb，建议尺寸为 81px * 81px ，当 postion 为 top 时，此参数无效                        |
 
 案例代码：
 
@@ -225,24 +226,24 @@ pages数组数组中第一项表示应用启动页
 	}
 ```
 
-##### condition启动模式配置
+## condition启动模式配置
 
 启动模式配置，仅开发期间生效，用于模拟直达页面的场景，如：小程序转发后，用户点击所打开的页面。
 
 **属性说明：**
 
-| 属性      | 类型     | 是否必填 | 描述                 |
-| ------- | ------ | ---- | ------------------ |
-| current | Number | 是    | 当前激活的模式，list节点的索引值 |
-| list    | Array  | 是    | 启动模式列表             |
+| 属性    | 类型   | 是否必填 | 描述                             |
+| ------- | ------ | -------- | -------------------------------- |
+| current | Number | 是       | 当前激活的模式，list节点的索引值 |
+| list    | Array  | 是       | 启动模式列表                     |
 
 **list说明：**
 
-| 属性    | 类型     | 是否必填 | 描述                                       |
-| ----- | ------ | ---- | ---------------------------------------- |
-| name  | String | 是    | 启动模式名称                                   |
-| path  | String | 是    | 启动页面路径                                   |
-| query | String | 否    | 启动参数，可在页面的 [onLoad](https://uniapp.dcloud.io/use?id=%e9%a1%b5%e9%9d%a2%e7%94%9f%e5%91%bd%e5%91%a8%e6%9c%9f) 函数里获得 |
+| 属性  | 类型   | 是否必填 | 描述                                                                                                                             |
+| ----- | ------ | -------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| name  | String | 是       | 启动模式名称                                                                                                                     |
+| path  | String | 是       | 启动页面路径                                                                                                                     |
+| query | String | 否       | 启动参数，可在页面的 [onLoad](https://uniapp.dcloud.io/use?id=%e9%a1%b5%e9%9d%a2%e7%94%9f%e5%91%bd%e5%91%a8%e6%9c%9f) 函数里获得 |
 
 #### 组件的基本使用
 
@@ -250,20 +251,20 @@ uni-app提供了丰富的基础组件给开发者，开发者可以像搭积木�
 
 uni-app中的组件，就像 `HTML` 中的 `div` 、`p`、`span` 等标签的作用一样，用于搭建页面的基础结构
 
-##### text文本组件的用法
+## text文本组件的用法
 
-###### 001 - text 组件的属性
+### 001 - text 组件的属性
 
-|     属性     |   类型    |  默认值  |  必填  |                说明                |
-| :--------: | :-----: | :---: | :--: | :------------------------------: |
-| selectable | boolean | false |  否   |              文本是否可选              |
-|   space    | string  |   .   |  否   | 显示连续空格，可选参数：`ensp`、`emsp`、`nbsp` |
-|   decode   | boolean | false |  否   |               是否解码               |
+|    属性    |  类型   | 默认值 | 必填  |                      说明                      |
+| :--------: | :-----: | :----: | :---: | :--------------------------------------------: |
+| selectable | boolean | false  |  否   |                  文本是否可选                  |
+|   space    | string  |   .    |  否   | 显示连续空格，可选参数：`ensp`、`emsp`、`nbsp` |
+|   decode   | boolean | false  |  否   |                    是否解码                    |
 
 - `text` 组件相当于行内标签、在同一行显示
 - 除了文本节点以外的其他节点都无法长按选中
 
-###### 002 - 代码案例
+### 002 - 代码案例
 
 ```html
 <view>
@@ -294,15 +295,15 @@ uni-app中的组件，就像 `HTML` 中的 `div` 、`p`、`span` 等标签的作
 </view>
 ```
 
-##### view视图容器组件的用法
+## view视图容器组件的用法
 
 > View 视图容器， 类似于 HTML 中的 div
 
-###### 001 - 组件的属性
+### 001 - 组件的属性
 
 ![](https://gitee.com//qiaoyukeji/markdown_tupian/raw/master/markdown/20200429165454.jpg)
 
-###### 002 - 代码案例
+### 002 - 代码案例
 
 ```html
 <view class="box2" hover-class="box2_active">
@@ -312,21 +313,21 @@ uni-app中的组件，就像 `HTML` 中的 `div` 、`p`、`span` 等标签的作
 </view>
 ```
 
-##### button按钮组件的用法
+## button按钮组件的用法
 
-###### 001 - 组件的属性
+### 001 - 组件的属性
 
-|   属性名    |   类型    |   默认值   |        说明         |
-| :------: | :-----: | :-----: | :---------------: |
-|   size   | String  | default |       按钮的大小       |
+|  属性名  |  类型   | 默认值  |           说明           |
+| :------: | :-----: | :-----: | :----------------------: |
+|   size   | String  | default |        按钮的大小        |
 |   type   | String  | default |      按钮的样式类型      |
-|  plain   | Boolean |  false  |   按钮是否镂空，背景色透明    |
-| disabled | Boolean |  false  |       是否按钮        |
+|  plain   | Boolean |  false  | 按钮是否镂空，背景色透明 |
+| disabled | Boolean |  false  |         是否按钮         |
 | loading  | Boolean |  false  | 名称是否带 loading t图标 |
 
 - `button` 组件默认独占一行，设置 `size` 为 `mini` 时可以在一行显示多个
 
-###### 002 - 案例代码
+### 002 - 案例代码
 
 ```html
 <button size='mini' type='primary'>前端</button>
@@ -336,16 +337,16 @@ uni-app中的组件，就像 `HTML` 中的 `div` 、`p`、`span` 等标签的作
 <button size='mini' type='warn' loading='true'>前端</button>
 ```
 
-##### image组件的使用
+## image组件的使用
 
-###### [image](https://uniapp.dcloud.io/component/image?id=image)
+### [image](https://uniapp.dcloud.io/component/image?id=image)
 
 图片。
 
-| 属性名  | 类型     | 默认值           | 说明         | 平台差异说明 |
-| ---- | ------ | ------------- | ---------- | ------ |
-| src  | String |               | 图片资源地址     |        |
-| mode | String | 'scaleToFill' | 图片裁剪、缩放的模式 |        |
+| 属性名 | 类型   | 默认值        | 说明                 | 平台差异说明 |
+| ------ | ------ | ------------- | -------------------- | ------------ |
+| src    | String |               | 图片资源地址         |              |
+| mode   | String | 'scaleToFill' | 图片裁剪、缩放的模式 |              |
 
 **Tips**
 
@@ -398,7 +399,7 @@ export default {
 }
 ```
 
-##### 插值表达式的使用
+## 插值表达式的使用
 
 + 利用插值表达式渲染基本数据
 
@@ -419,7 +420,7 @@ export default {
   ```
 
 
-##### v-bind动态绑定属性
+## v-bind动态绑定属性
 
 在data中定义了一张图片，我们希望把这张图片渲染到页面上
 
@@ -445,7 +446,7 @@ export default {
 <image :src="img"></image>
 ```
 
-##### v-for的使用
+## v-for的使用
 
 data中定以一个数组，最终将数组渲染到页面上
 
@@ -470,7 +471,7 @@ data () {
 
 #### uni中的事件
 
-##### 事件绑定
+## 事件绑定
 
 在uni中事件绑定和vue中是一样的，通过v-on进行事件的绑定，也可以简写为@
 
@@ -488,7 +489,7 @@ methods: {
 }
 ```
 
-##### 事件传参
+## 事件传参
 
 - 默认如果没有传递参数，事件函数第一个形参为事件对象
 
@@ -531,7 +532,7 @@ methods: {
 
 #### uni的生命周期
 
-##### 应用的生命周期
+## 应用的生命周期
 
 生命周期的概念：一个对象从创建、运行、销毁的整个过程被成为生命周期。
 
@@ -539,28 +540,28 @@ methods: {
 
 `uni-app` 支持如下应用生命周期函数：
 
-| 函数名      | 说明                           |
-| -------- | ---------------------------- |
+| 函数名   | 说明                                           |
+| -------- | ---------------------------------------------- |
 | onLaunch | 当`uni-app` 初始化完成时触发（全局只触发一次） |
-| onShow   | 当 `uni-app` 启动，或从后台进入前台显示    |
-| onHide   | 当 `uni-app` 从前台进入后台          |
-| onError  | 当 `uni-app` 报错时触发            |
+| onShow   | 当 `uni-app` 启动，或从后台进入前台显示        |
+| onHide   | 当 `uni-app` 从前台进入后台                    |
+| onError  | 当 `uni-app` 报错时触发                        |
 
-##### 页面的生命周期
+## 页面的生命周期
 
 `uni-app` 支持如下页面生命周期函数：
 
-| 函数名      | 说明                                       | 平台差异说明 | 最低版本 |
-| -------- | ---------------------------------------- | ------ | ---- |
-| onLoad   | 监听页面加载，其参数为上个页面传递的数据，参数类型为Object（用于页面传参），参考[示例](https://uniapp.dcloud.io/api/router?id=navigateto) |        |      |
-| onShow   | 监听页面显示。页面每次出现在屏幕上都触发，包括从下级页面点返回露出当前页面    |        |      |
-| onReady  | 监听页面初次渲染完成。                              |        |      |
-| onHide   | 监听页面隐藏                                   |        |      |
-| onUnload | 监听页面卸载                                   |        |      |
+| 函数名   | 说明                                                                                                                                      | 平台差异说明 | 最低版本 |
+| -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------- |
+| onLoad   | 监听页面加载，其参数为上个页面传递的数据，参数类型为Object（用于页面传参），参考[示例](https://uniapp.dcloud.io/api/router?id=navigateto) |              |          |
+| onShow   | 监听页面显示。页面每次出现在屏幕上都触发，包括从下级页面点返回露出当前页面                                                                |              |          |
+| onReady  | 监听页面初次渲染完成。                                                                                                                    |              |          |
+| onHide   | 监听页面隐藏                                                                                                                              |              |          |
+| onUnload | 监听页面卸载                                                                                                                              |              |          |
 
 #### 下拉刷新
 
-##### 开启下拉刷新
+## 开启下拉刷新
 
 在uni-app中有两种方式开启下拉刷新
 
@@ -568,7 +569,7 @@ methods: {
 + 通过调用uni.startPullDownRefresh方法来开启下拉刷新
 
 
-###### 通过配置文件开启
+### 通过配置文件开启
 
 创建list页面进行演示
 
@@ -607,7 +608,7 @@ methods: {
 }
 ```
 
-###### 通过API开启
+### 通过API开启
 
 [api文档](https://uniapp.dcloud.io/api/ui/pulldown)
 
@@ -615,7 +616,7 @@ methods: {
 uni.startPullDownRefresh()
 ```
 
-##### 监听下拉刷新
+## 监听下拉刷新
 
 通过onPullDownRefresh可以监听到下拉刷新的动作
 
@@ -637,7 +638,7 @@ export default {
 }
 ```
 
-##### 关闭下拉刷新
+## 关闭下拉刷新
 
 uni.stopPullDownRefresh()
 
@@ -750,7 +751,7 @@ uni.stopPullDownRefresh()
 
 #### 数据缓存
 
-##### **uni.setStorage**
+## **uni.setStorage**
 
 [官方文档](https://uniapp.dcloud.io/api/storage/storage?id=setstorage)
 
@@ -785,7 +786,7 @@ uni.stopPullDownRefresh()
 </style>
 ```
 
-##### uni.setStorageSync
+## uni.setStorageSync
 
 将 data 存储在本地缓存中指定的 key 中，会覆盖掉原来该 key 对应的内容，这是一个同步接口。
 
@@ -812,7 +813,7 @@ uni.stopPullDownRefresh()
 </style>
 ```
 
-##### uni.getStorage
+## uni.getStorage
 
 从本地缓存中异步获取指定 key 对应的内容。
 
@@ -845,7 +846,7 @@ uni.stopPullDownRefresh()
 </script>
 ```
 
-##### uni.getStorageSync
+## uni.getStorageSync
 
 从本地缓存中同步获取指定 key 对应的内容。
 
@@ -869,7 +870,7 @@ uni.stopPullDownRefresh()
 </script>
 ```
 
-##### uni.removeStorage
+## uni.removeStorage
 
 从本地缓存中异步移除指定 key。
 
@@ -897,7 +898,7 @@ uni.stopPullDownRefresh()
 </script>
 ```
 
-##### uni.removeStorageSync
+## uni.removeStorageSync
 
 从本地缓存中同步移除指定 key。
 
@@ -922,7 +923,7 @@ uni.stopPullDownRefresh()
 
 #### 上传图片、预览图片
 
-##### 上传图片
+## 上传图片
 
 uni.chooseImage方法从本地相册选择图片或使用相机拍照。
 
@@ -959,7 +960,7 @@ uni.chooseImage方法从本地相册选择图片或使用相机拍照。
 </script>
 ```
 
-##### 预览图片
+## 预览图片
 
 结构
 
@@ -988,18 +989,18 @@ previewImg (current) {
 
 平台标识
 
-| 值          | 平台                             | 参考文档                                     |
-| ---------- | ------------------------------ | ---------------------------------------- |
-| APP-PLUS   | 5+App                          | [HTML5+ 规范](http://www.html5plus.org/doc/) |
-| H5         | H5                             |                                          |
-| MP-WEIXIN  | 微信小程序                          | [微信小程序](https://developers.weixin.qq.com/miniprogram/dev/api/) |
-| MP-ALIPAY  | 支付宝小程序                         | [支付宝小程序](https://docs.alipay.com/mini/developer/getting-started) |
-| MP-BAIDU   | 百度小程序                          | [百度小程序](https://smartprogram.baidu.com/docs/develop/tutorial/codedir/) |
-| MP-TOUTIAO | 头条小程序                          | [头条小程序](https://developer.toutiao.com/dev/cn/mini-app/develop/framework/basic-reference/introduction) |
-| MP-QQ      | QQ小程序                          | （目前仅cli版支持）                              |
-| MP         | 微信小程序/支付宝小程序/百度小程序/头条小程序/QQ小程序 |                                          |
+| 值         | 平台                                                   | 参考文档                                                                                                   |
+| ---------- | ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
+| APP-PLUS   | 5+App                                                  | [HTML5+ 规范](http://www.html5plus.org/doc/)                                                               |
+| H5         | H5                                                     |                                                                                                            |
+| MP-WEIXIN  | 微信小程序                                             | [微信小程序](https://developers.weixin.qq.com/miniprogram/dev/api/)                                        |
+| MP-ALIPAY  | 支付宝小程序                                           | [支付宝小程序](https://docs.alipay.com/mini/developer/getting-started)                                     |
+| MP-BAIDU   | 百度小程序                                             | [百度小程序](https://smartprogram.baidu.com/docs/develop/tutorial/codedir/)                                |
+| MP-TOUTIAO | 头条小程序                                             | [头条小程序](https://developer.toutiao.com/dev/cn/mini-app/develop/framework/basic-reference/introduction) |
+| MP-QQ      | QQ小程序                                               | （目前仅cli版支持）                                                                                        |
+| MP         | 微信小程序/支付宝小程序/百度小程序/头条小程序/QQ小程序 |                                                                                                            |
 
-##### 组件的条件注释
+## 组件的条件注释
 
 代码演示
 
@@ -1021,7 +1022,7 @@ previewImg (current) {
 <!-- #endif -->
 ```
 
-##### api的条件注释
+## api的条件注释
 
 代码演示
 
@@ -1059,7 +1060,7 @@ view{
 
 #### uni中的导航跳转
 
-##### 利用navigator进行跳转
+## 利用navigator进行跳转
 
 navigator详细文档：[文档地址](https://uniapp.dcloud.io/component/navigator)
 
@@ -1079,7 +1080,7 @@ navigator详细文档：[文档地址](https://uniapp.dcloud.io/component/naviga
 </navigator>
 ```
 
-##### 利用编程式导航进行跳转
+## 利用编程式导航进行跳转
 
 [导航跳转文档]( [uni.navigateTo](https://uniapp.dcloud.io/api/router?id=navigateto))
 
@@ -1142,7 +1143,7 @@ onUnload () {
 }
 ```
 
-##### 导航跳转传递参数
+## 导航跳转传递参数
 
 在导航进行跳转到下一个页面的同时，可以给下一个页面传递相应的参数，接收参数的页面可以通过onLoad生命周期进行接收
 
@@ -1209,21 +1210,21 @@ goAbout () {
   ```
 
 
-##### 组件的生命周期函数
+## 组件的生命周期函数
 
-| beforeCreate  | 在实例初始化之后被调用。[详见](https://cn.vuejs.org/v2/api/#beforeCreate) |         |      |
-| ------------- | ---------------------------------------- | ------- | ---- |
-| created       | 在实例创建完成后被立即调用。[详见](https://cn.vuejs.org/v2/api/#created) |         |      |
-| beforeMount   | 在挂载开始之前被调用。[详见](https://cn.vuejs.org/v2/api/#beforeMount) |         |      |
-| mounted       | 挂载到实例上去之后调用。[详见](https://cn.vuejs.org/v2/api/#mounted) 注意：此处并不能确定子组件被全部挂载，如果需要子组件完全挂载之后在执行操作可以使用`$nextTick`[Vue官方文档](https://cn.vuejs.org/v2/api/#Vue-nextTick) |         |      |
-| beforeUpdate  | 数据更新时调用，发生在虚拟 DOM 打补丁之前。[详见](https://cn.vuejs.org/v2/api/#beforeUpdate) | 仅H5平台支持 |      |
-| updated       | 由于数据更改导致的虚拟 DOM 重新渲染和打补丁，在这之后会调用该钩子。[详见](https://cn.vuejs.org/v2/api/#updated) | 仅H5平台支持 |      |
-| beforeDestroy | 实例销毁之前调用。在这一步，实例仍然完全可用。[详见](https://cn.vuejs.org/v2/api/#beforeDestroy) |         |      |
-| destroyed     | Vue 实例销毁后调用。调用后，Vue 实例指示的所有东西都会解绑定，所有的事件监听器会被移除，所有的子实例也会被销毁。[详见](https://cn.vuejs.org/v2/api/#destroyed) |         |      |
+| beforeCreate  | 在实例初始化之后被调用。[详见](https://cn.vuejs.org/v2/api/#beforeCreate)                                                                                                                                                  |              |     |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --- |
+| created       | 在实例创建完成后被立即调用。[详见](https://cn.vuejs.org/v2/api/#created)                                                                                                                                                   |              |     |
+| beforeMount   | 在挂载开始之前被调用。[详见](https://cn.vuejs.org/v2/api/#beforeMount)                                                                                                                                                     |              |     |
+| mounted       | 挂载到实例上去之后调用。[详见](https://cn.vuejs.org/v2/api/#mounted) 注意：此处并不能确定子组件被全部挂载，如果需要子组件完全挂载之后在执行操作可以使用`$nextTick`[Vue官方文档](https://cn.vuejs.org/v2/api/#Vue-nextTick) |              |     |
+| beforeUpdate  | 数据更新时调用，发生在虚拟 DOM 打补丁之前。[详见](https://cn.vuejs.org/v2/api/#beforeUpdate)                                                                                                                               | 仅H5平台支持 |     |
+| updated       | 由于数据更改导致的虚拟 DOM 重新渲染和打补丁，在这之后会调用该钩子。[详见](https://cn.vuejs.org/v2/api/#updated)                                                                                                            | 仅H5平台支持 |     |
+| beforeDestroy | 实例销毁之前调用。在这一步，实例仍然完全可用。[详见](https://cn.vuejs.org/v2/api/#beforeDestroy)                                                                                                                           |              |     |
+| destroyed     | Vue 实例销毁后调用。调用后，Vue 实例指示的所有东西都会解绑定，所有的事件监听器会被移除，所有的子实例也会被销毁。[详见](https://cn.vuejs.org/v2/api/#destroyed)                                                             |              |     |
 
 #### 组件的通讯
 
-##### 父组件给子组件传值
+## 父组件给子组件传值
 
 通过props来接受外界传递到组件内部的值
 
@@ -1267,7 +1268,7 @@ goAbout () {
 </script>
 ```
 
-##### 子组件给父组件传值
+## 子组件给父组件传值
 
 通过$emit触发事件进行传递参数
 
@@ -1328,7 +1329,7 @@ goAbout () {
 </script>
 ```
 
-##### 兄弟组件通讯
+## 兄弟组件通讯
 
 #### uni-ui的使用
 

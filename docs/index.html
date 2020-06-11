@@ -4,7 +4,7 @@
  * @Author: qiaoyurensheng@163.com
  * @Date: 2020-06-11 12:27:34
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-06-12 01:56:27
+ * @LastEditTime: 2020-06-12 02:34:14
 -->
 <!DOCTYPE html>
 <html lang="zh">
@@ -26,10 +26,28 @@
       name: '我的文档笔记库',
       repo: '',
       loadSidebar: true,
-      subMaxLevel: 2,
+      subMaxLevel: 3,
+      count: {
+        countable: true,
+        position: 'top',
+        margin: '10px',
+        float: 'right',
+        fontsize: '0.9em',
+        color: 'rgb(90,90,90)',
+        language: 'chinese',
+        localization: {
+          words: "",
+          minute: ""
+        },
+        isExpected: true
+      }
     }
+
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <!-- 字数统计 -->
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
 </body>
 
 </html>

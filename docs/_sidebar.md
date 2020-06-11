@@ -4,7 +4,7 @@
  * @Author: qiaoyurensheng@163.com
  * @Date: 2020-06-11 12:30:56
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-06-12 01:51:59
+ * @LastEditTime: 2020-06-12 02:40:26
 --> 
 * 前端
     * 前端基础
@@ -18,7 +18,7 @@
             * [流式布局](note/H5C3/移动web开发_流式布局.md)
             * [Flex布局](note/H5C3/移动web开发_flex布局.md)
             * [rem布局](note/H5C3/移动web开发_rem布局.md)
-            * [响应式布局](note/H5C3/移动web开发之响应式布局.md)
+            * [响应式布局与BootStrap](note/H5C3/移动web开发之响应式布局.md)
     * WEB_API编程
         * DOM与BOM
             * [WebAPI简介](note/WEB_API编程/DOM与BOM/day01_WebAPIs.md)
@@ -39,3 +39,9 @@
         * fullpage
             * [fullpage个人网站](note/WEB_API编程/fullpage/fullpage个人网站.md)
             * [fullpage全屏展示](note/WEB_API编程/fullpage/fullpage全屏页面.md)
+    * 前端其他知识
+        * [echarts](note/echarts_数据可视化.md)
+* 前端框架
+    * Vue
+        * [vue组件传值](note/vue与uniapp/vue组件传值.md)
+        * [uniapp基础知识](note/vue与uniapp/黑马商城uniapp/uniapp基础知识.md)
