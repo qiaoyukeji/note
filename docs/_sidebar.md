@@ -4,7 +4,7 @@
  * @Author: qiaoyurensheng@163.com
  * @Date: 2020-06-11 12:30:56
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-06-12 02:40:26
+ * @LastEditTime: 2020-06-13 03:18:54
 --> 
 * 前端
     * 前端基础
@@ -45,3 +45,8 @@
     * Vue
         * [vue组件传值](note/vue与uniapp/vue组件传值.md)
         * [uniapp基础知识](note/vue与uniapp/黑马商城uniapp/uniapp基础知识.md)
+
+* 开发工具类
+    * [docker](note/开发工具类知识/docker基础知识.md)
+    * git
+        * [git基础_上](note/开发工具类知识/git基础_上.md)
