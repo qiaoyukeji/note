@@ -4,7 +4,7 @@
  * @Author: qiaoyurensheng@163.com
  * @Date: 2020-06-11 12:30:56
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-06-15 00:51:29
+ * @LastEditTime: 2020-06-15 01:03:30
 --> 
 * 前端
     * 前端基础
@@ -55,8 +55,12 @@
     * git
         * [git基础_上](note/开发工具类知识/git基础_上.md)
         * [git基础_下](note/开发工具类知识/git基础_下.md)
-* 数据库
+    * [axios请求库](note/开发工具类知识/axios请求库.md)
+* C++与数据库
     * MySQL
         * [1.数据库的常用操作与三大范式](note/learn_mysql/1.数据库常用操作与三大范式.md)
         * [2.MySQL查询练习](note/learn_mysql/2.mysql查询练习.md)
         * [3.MySQL事务](note/learn_mysql/3.mysql事务.md)
+    * C++
+        * [C++基础入门](note/c++/C++基础入门.md)
+        * [C++泛型编程与STL](note/c++/C++泛型编程与STL.md)
