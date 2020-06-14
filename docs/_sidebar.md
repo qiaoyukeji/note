@@ -4,7 +4,7 @@
  * @Author: qiaoyurensheng@163.com
  * @Date: 2020-06-11 12:30:56
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-06-13 03:18:54
+ * @LastEditTime: 2020-06-15 00:42:39
 --> 
 * 前端
     * 前端基础
@@ -46,7 +46,13 @@
         * [vue组件传值](note/vue与uniapp/vue组件传值.md)
         * [uniapp基础知识](note/vue与uniapp/黑马商城uniapp/uniapp基础知识.md)
 
+* Node
+    * [Node.js简单基础](note/Node.js/node.js简单笔记.md)
+    * [Express简单基础](note/Node.js/Express简单笔记.md)
+    * [MongoDB简单基础](note/Node.js/MongoDB简单笔记.md)
+    * [Gulp简单基础](note/Node.js/Gulp的简单使用.md)
 * 开发工具类
     * [docker](note/开发工具类知识/docker基础知识.md)
     * git
         * [git基础_上](note/开发工具类知识/git基础_上.md)
+        * [git基础_下](note/开发工具类知识/git基础_下.md)
