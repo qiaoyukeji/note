@@ -4,7 +4,7 @@
  * @Author: qiaoyurensheng@163.com
  * @Date: 2020-06-11 12:30:56
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-06-15 00:42:39
+ * @LastEditTime: 2020-06-15 00:51:29
 --> 
 * 前端
     * 前端基础
@@ -45,7 +45,6 @@
     * Vue
         * [vue组件传值](note/vue与uniapp/vue组件传值.md)
         * [uniapp基础知识](note/vue与uniapp/黑马商城uniapp/uniapp基础知识.md)
-
 * Node
     * [Node.js简单基础](note/Node.js/node.js简单笔记.md)
     * [Express简单基础](note/Node.js/Express简单笔记.md)
@@ -56,3 +55,8 @@
     * git
         * [git基础_上](note/开发工具类知识/git基础_上.md)
         * [git基础_下](note/开发工具类知识/git基础_下.md)
+* 数据库
+    * MySQL
+        * [1.数据库的常用操作与三大范式](note/learn_mysql/1.数据库常用操作与三大范式.md)
+        * [2.MySQL查询练习](note/learn_mysql/2.mysql查询练习.md)
+        * [3.MySQL事务](note/learn_mysql/3.mysql事务.md)
