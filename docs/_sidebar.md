@@ -4,7 +4,7 @@
  * @Author: qiaoyurensheng@163.com
  * @Date: 2020-06-11 12:30:56
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-06-15 01:03:30
+ * @LastEditTime: 2020-06-17 13:28:34
 --> 
 * 前端
     * 前端基础
@@ -56,6 +56,7 @@
         * [git基础_上](note/开发工具类知识/git基础_上.md)
         * [git基础_下](note/开发工具类知识/git基础_下.md)
     * [axios请求库](note/开发工具类知识/axios请求库.md)
+    * [技术面试必备知识](note/开发工具类知识/技术面试必备基础知识/技术面试必备基础知识%20CyC2018.md)
 * C++与数据库
     * MySQL
         * [1.数据库的常用操作与三大范式](note/learn_mysql/1.数据库常用操作与三大范式.md)
